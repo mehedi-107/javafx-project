@@ -87,7 +87,7 @@ The application follows a **Client-Server architecture** where a central server 
 
 ### User Home — Food Search & Cart
 <p align="center">
-  <img src="src/main/resources/com/example/demo/image/user.png" alt="User Home" width="700"/>
+  <img src="src/main/resources/com/example/demo/image/user.png" alt="User Home" width="300"/>
 </p>
 
 > The user dashboard includes a dynamic food carousel, advanced combo-box search filters, results table with "Add to Cart" functionality, and a live cart panel.
