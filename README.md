@@ -2,8 +2,8 @@
   <img src="src/image/id_1_logo.png" alt="FoodExpress Logo" width="120"/>
 </p>
 
-<h1 align="center">🍔 FoodExpress — Online Food Ordering System</h1>
-
+<h1 align="center">Javafx project of level 1 term 2</h1>
+<h2 align="center">🍔 FoodExpress — Online Food Ordering System</h2>
 <p align="center">
   <b>A multi-user, real-time food delivery platform built with JavaFX & Socket Programming</b>
 </p>
