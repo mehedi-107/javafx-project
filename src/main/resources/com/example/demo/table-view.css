@@ -1,0 +1,29 @@
+.table-view {
+    -fx-background-color:  #FF5733; 
+    -fx-padding: 10px; 
+}
+
+/* Style the TableHeaderRow (header row) */
+.table-header-row {
+    -fx-background-color:  #FF5733; 
+    -fx-text-fill: #fff; 
+}
+.table-column-header {
+    -fx-background-color:  #FF5733; 
+    -fx-text-fill: #fff; 
+    -fx-font-weight: bold; 
+}
+
+.table-cell {
+    -fx-text-fill: #333; 
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9; 
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: #fff; 
+}

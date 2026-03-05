@@ -1,0 +1,64 @@
+.root{
+-fx-background-image:url('image/loginPage.jpg');
+-fx-background-size:cover;
+}
+.logBut{
+    -fx-background-color: #FF5733; 
+    -fx-background-radius: 20; 
+    -fx-border-radius: 20; 
+    -fx-border-color: #FF5733; 
+    -fx-border-width: 2px; 
+    -fx-padding: 10 20; 
+    -fx-transition: transform 2s;
+}
+
+.logBut:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+-fx-scale-x: 1.05;
+-fx-scale-y: 1.05;
+}
+
+.regBut{
+    -fx-background-color: #FF5733; 
+    -fx-background-radius: 20; 
+    -fx-border-radius: 20;
+    -fx-border-color: #FF5733; 
+    -fx-border-width: 2px; 
+    -fx-padding: 10 20; 
+    -fx-transition: transform 2s;
+}
+
+.regBut:hover {
+    -fx-transform: scale(1.05);
+}
+
+.text-field-style {
+    -fx-background-color: #f2f2f2; 
+    -fx-border-color: #3498db; 
+    -fx-border-width: 2px; 
+    -fx-border-radius: 3px; 
+    -fx-padding: 5px; 
+    -fx-font-size: 14px; 
+    -fx-text-fill: #333; 
+    -fx-prompt-text-fill: #999; 
+}
+
+.text-field-style:focused {
+    -fx-border-color: #e74c3c;
+    -fx-box-shadow: 0px 0px 5px 0px #e74c3c; 
+
+
+.text-field-style:disabled {
+    -fx-opacity: 0.7; 
+}
+
+
+.text-field-style .text-input {
+    -fx-prompt-text-fill: #999; 
+}
+
+
+.text-field-style .text-input:selected {
+    -fx-background-color: #3498db; 
+    -fx-text-fill: #fff; 
+}

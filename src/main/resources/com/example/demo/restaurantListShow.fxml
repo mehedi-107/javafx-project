@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1050.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.restaurantSearchController">
+   <children>
+      <ImageView fitHeight="675.0" fitWidth="1097.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/restaurantList.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="restaurantListShow" layoutX="106.0" layoutY="278.0" prefHeight="259.0" prefWidth="826.0" stylesheets="@list-view.css" />
+      <TextField fx:id="firstInput" layoutX="341.0" layoutY="106.0" opacity="0.93" prefHeight="39.0" prefWidth="368.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button id="logBut" fx:id="search" layoutX="458.0" layoutY="203.0" mnemonicParsing="false" onAction="#searchConform" prefHeight="44.0" prefWidth="134.0" style="-fx-background-color: #FF5733;" styleClass="logBut" stylesheets="@login.css" text="Search">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.7529411911964417" blue="0.7960784435272217" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <Button id="logBut" fx:id="search1" layoutX="771.0" layoutY="582.0" mnemonicParsing="false" onAction="#cancel" prefHeight="44.0" prefWidth="134.0" style="-fx-background-color: #FF5733;" styleClass="logBut" stylesheets="@login.css" text="Go to back">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.7529411911964417" blue="0.7960784435272217" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="secondInput" layoutX="341.0" layoutY="153.0" opacity="0.92" prefHeight="39.0" prefWidth="368.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Text fill="#ff5733" layoutX="293.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enchanted Dining: Explore Restaurants" wrappingWidth="464.1436767578125">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

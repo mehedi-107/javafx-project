@@ -1,0 +1,27 @@
+/* Custom CSS for ListView */
+.list-view {
+    -fx-background-color: #b76a6a; /* Background color */
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent; /* Transparent background for list cells */
+    -fx-text-fill: #333; /* Text color */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 5px 10px; /* Padding around list cells */
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #3498db; /* Hover background color */
+    -fx-text-fill: white; /* Text color on hover */
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #3498db; /* Selected background color */
+    -fx-text-fill: white; /* Text color when selected */
+}
+
+.list-view .list-cell:focused {
+    -fx-background-color: transparent; /* Background color when focused */
+}
