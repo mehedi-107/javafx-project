@@ -421,10 +421,7 @@ The login page will appear:
 
 | Username | Password |
 |----------|----------|
-| `mahdi`  | `234`    |
 | `mehedi` | `123`    |
-| `rubab`  | `456`    |
-| `rafat`  | `345`    |
 
 ### Client Accounts (Restaurants)
 
