@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="src/image/id_1_logo.png" alt="FoodExpress Logo" width="120"/>
-</p>
-
 <h1 align="center">Javafx project of level 1 term 2</h1>
 <h2 align="center">🍔 FoodExpress — Online Food Ordering System</h2>
 <p align="center">
