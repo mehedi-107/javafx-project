@@ -22,7 +22,6 @@
 
 - [Overview](#-overview)
 - [Features](#-features)
-- [Screenshots](#-screenshots)
 - [System Architecture](#-system-architecture)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -74,37 +73,6 @@ The application follows a **Client-Server architecture** where a central server 
 | ✅❌ Order Processing | View order details, accept or reject each order |
 | 📊 Dashboard | View restaurant info, menu table, and pending orders |
 
----
-
-## 📸 Screenshots
-
-### Login Page
-<p align="center">
-  <img src="src/main/resources/com/example/demo/image/loginPage.jpg" alt="Login Page" width="700"/>
-</p>
-
-> The login page features animated button transitions and supports both User and Client authentication. Users can register a new account or log in with existing credentials.
-
-### User Home — Food Search & Cart
-<p align="center">
-  <img src="src/main/resources/com/example/demo/image/user.png" alt="User Home" width="300"/>
-</p>
-
-> The user dashboard includes a dynamic food carousel, advanced combo-box search filters, results table with "Add to Cart" functionality, and a live cart panel.
-
-### Restaurant Search
-<p align="center">
-  <img src="src/main/resources/com/example/demo/image/restaurantList.jpg" alt="Restaurant List" width="700"/>
-</p>
-
-> Users can browse and filter restaurants by various criteria. Results are displayed in a clean ListView with custom styling.
-
-### Restaurant Dashboard
-<p align="center">
-  <img src="src/main/resources/com/example/demo/image/res.jpg" alt="Restaurant Dashboard" width="700"/>
-</p>
-
-> Restaurant owners see their info, current menu (TableView), and incoming orders with real-time updates.
 
 ---
 
